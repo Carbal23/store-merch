@@ -1,0 +1,50 @@
+.checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin: auto;
+}
+
+.checkout-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 70%;
+}
+
+.checkout-item{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-item button{
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #bababa;
+}
+
+.checkout-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.checkout-element h4{
+    flex-grow: 1;
+}
+
+.checkout-sidebar{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

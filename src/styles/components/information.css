@@ -1,0 +1,86 @@
+.information{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.information-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-grow: 2;
+}
+
+.informacion-head{
+    text-align: center;
+}
+
+.information-form form{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.information-form form input{
+    height: 30px;
+   margin: 5px;
+}
+
+.information-button{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.information-back{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px #d9d9d9;
+    background-color: #d9d9d9;
+    font-weight: 700;
+}
+
+.information-next{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px #d9d9d9;
+    background-color: #5f2a;
+    font-weight: 700;
+}
+
+.information-sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.information-sidebar h3{
+    margin: 20px 0;
+    width: 30%;
+}
+
+.information-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.information-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #eaeaea;
+}
+
+.invalid-input {
+    border: 2px solid red;
+    background-color: #ffd0d0; /* Cambia esto según tus preferencias para resaltar el fondo */
+  }
