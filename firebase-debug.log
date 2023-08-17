@@ -1,0 +1,173 @@
+[debug] [2023-08-17T00:26:09.739Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T00:26:09.744Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login:ci
+[debug] [2023-08-17T00:26:09.744Z] CLI Version:   12.4.8
+[debug] [2023-08-17T00:26:09.745Z] Platform:      win32
+[debug] [2023-08-17T00:26:09.745Z] Node Version:  v19.8.1
+[debug] [2023-08-17T00:26:09.745Z] Time:          Wed Aug 16 2023 19:26:09 GMT-0500 (hora estándar de Colombia)
+[debug] [2023-08-17T00:26:09.745Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  Authenticating with a `login:ci` token is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=733223921&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-17T00:26:24.170Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-08-17T00:26:24.171Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-08-17T00:26:45.390Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------699697719750595620340527","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 2800:3f0:4005:408::200d:443
+[debug] [2023-08-17T00:26:45.391Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-08-17T00:26:45.399Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2023-08-17T00:26:45.400Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"b9bea2b9-0def-4a1d-ab0f-f4f7d50a64d5"}
+[debug] [2023-08-17T00:27:11.634Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T00:27:11.638Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-08-17T00:27:11.639Z] CLI Version:   12.4.8
+[debug] [2023-08-17T00:27:11.640Z] Platform:      win32
+[debug] [2023-08-17T00:27:11.640Z] Node Version:  v19.8.1
+[debug] [2023-08-17T00:27:11.640Z] Time:          Wed Aug 16 2023 19:27:11 GMT-0500 (hora estándar de Colombia)
+[debug] [2023-08-17T00:27:11.640Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as mcarbal23@gmail.com
+[debug] [2023-08-17T00:27:21.902Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-17T00:29:32.747Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T00:29:32.752Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-08-17T00:29:32.753Z] CLI Version:   12.4.8
+[debug] [2023-08-17T00:29:32.753Z] Platform:      win32
+[debug] [2023-08-17T00:29:32.754Z] Node Version:  v19.8.1
+[debug] [2023-08-17T00:29:32.754Z] Time:          Wed Aug 16 2023 19:29:32 GMT-0500 (hora estándar de Colombia)
+[debug] [2023-08-17T00:29:32.754Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as mcarbal23@gmail.com
+[debug] [2023-08-17T00:29:42.954Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-17T00:30:28.936Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T00:30:28.943Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login:ci
+[debug] [2023-08-17T00:30:28.944Z] CLI Version:   12.4.8
+[debug] [2023-08-17T00:30:28.945Z] Platform:      win32
+[debug] [2023-08-17T00:30:28.945Z] Node Version:  v19.8.1
+[debug] [2023-08-17T00:30:28.945Z] Time:          Wed Aug 16 2023 19:30:28 GMT-0500 (hora estándar de Colombia)
+[debug] [2023-08-17T00:30:28.945Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  Authenticating with a `login:ci` token is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=88197785&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-17T00:30:40.305Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-08-17T00:30:40.306Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-08-17T00:31:01.450Z] *** [apiv2] error from fetch(https://accounts.google.com/o/oauth2/token, {"headers":{},"method":"POST","body":{"_overheadLength":543,"_valueLength":208,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------024297317359829820683221","_events":{},"_eventsCount":1}}): FetchError: request to https://accounts.google.com/o/oauth2/token failed, reason: connect ETIMEDOUT 2800:3f0:4005:408::200d:443
+[debug] [2023-08-17T00:31:01.451Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-08-17T00:31:01.460Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2023-08-17T00:31:01.461Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"b5dc8907-4735-4297-88ba-d8da4ca7df97"}
+[debug] [2023-08-17T00:31:22.519Z] *** [apiv2] error from fetch(https://auth.firebase.tools/attest, {"headers":{},"method":"POST","body":"{\"session_id\":\"b5dc8907-4735-4297-88ba-d8da4ca7df97\"}"}): FetchError: request to https://auth.firebase.tools/attest failed, reason: connect ETIMEDOUT 2001:4860:4802:38::15:443
+[debug] [2023-08-17T00:31:27.527Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-17T00:33:43.953Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T00:33:43.957Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-08-17T00:33:43.958Z] CLI Version:   12.4.8
+[debug] [2023-08-17T00:33:43.959Z] Platform:      win32
+[debug] [2023-08-17T00:33:43.959Z] Node Version:  v19.8.1
+[debug] [2023-08-17T00:33:43.959Z] Time:          Wed Aug 16 2023 19:33:43 GMT-0500 (hora estándar de Colombia)
+[debug] [2023-08-17T00:33:43.959Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-17T00:33:44.057Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-17T00:33:44.058Z] > authorizing via signed-in user (mcarbal23@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Administrador.000\Desktop\conf-merch
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-17T00:33:48.460Z] Using project from CLI flag: store-app-4c12d
+[debug] [2023-08-17T00:33:48.465Z] > refreshing access token with scopes: []
+[debug] [2023-08-17T00:33:48.468Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-17T00:33:48.468Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-17T00:34:09.622Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------453021870063491788343234","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: connect ETIMEDOUT 2800:3f0:4005:40a::200a:443
+[debug] [2023-08-17T00:34:09.623Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-08-17T00:34:14.634Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-17T00:35:38.220Z] ----------------------------------------------------------------------
+[debug] [2023-08-17T00:35:38.225Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-08-17T00:35:38.225Z] CLI Version:   12.4.8
+[debug] [2023-08-17T00:35:38.226Z] Platform:      win32
+[debug] [2023-08-17T00:35:38.226Z] Node Version:  v19.8.1
+[debug] [2023-08-17T00:35:38.226Z] Time:          Wed Aug 16 2023 19:35:38 GMT-0500 (hora estándar de Colombia)
+[debug] [2023-08-17T00:35:38.226Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-17T00:35:38.328Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-17T00:35:38.329Z] > authorizing via signed-in user (mcarbal23@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Administrador.000\Desktop\conf-merch
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-17T00:35:41.434Z] Using project from CLI flag: store-app-4c12d
+[debug] [2023-08-17T00:35:41.439Z] > refreshing access token with scopes: []
+[debug] [2023-08-17T00:35:41.441Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-17T00:35:41.442Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-17T00:36:02.588Z] *** [apiv2] error from fetch(https://www.googleapis.com/oauth2/v3/token, {"headers":{},"method":"POST","body":{"_overheadLength":545,"_valueLength":212,"_valuesToMeasure":[],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":true,"_streams":[],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------600900950720176523730378","_events":{},"_eventsCount":1}}): FetchError: request to https://www.googleapis.com/oauth2/v3/token failed, reason: connect ETIMEDOUT 2800:3f0:4005:401::200a:443
+[debug] [2023-08-17T00:36:02.589Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-08-17T00:36:07.597Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Administrador.000\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
