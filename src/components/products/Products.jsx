@@ -13,11 +13,12 @@ const Products = () => {
 
   return (
     <div className="products">
+      {products.length === 0 && <h1>No hay productos</h1> }
       <div className="product-items">
         {products.map((product) => (
           <Product 
           key={product.id} 
-          product={product}
+          product={product.attributes}
           handleAddToCart={handleAddToCart}
           />
         ))}
